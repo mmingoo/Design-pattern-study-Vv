@@ -1,4 +1,4 @@
-package design_pattern.design_pattern.factory.method;
+package design_pattern.design_pattern.factory.method.ship;
 
 import lombok.Getter;
 import lombok.Setter;

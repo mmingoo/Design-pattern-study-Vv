@@ -1,4 +1,4 @@
-package design_pattern.design_pattern.factory.method;
+package design_pattern.design_pattern.factory.method.ship;
 
 public class BlackShip extends Ship{
     public BlackShip(){

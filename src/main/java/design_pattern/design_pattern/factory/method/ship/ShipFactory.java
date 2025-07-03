@@ -1,4 +1,4 @@
-package design_pattern.design_pattern.factory.method;
+package design_pattern.design_pattern.factory.method.ship;
 
 public interface ShipFactory {
     // 배 주문
