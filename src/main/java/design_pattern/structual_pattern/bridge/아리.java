@@ -1,4 +1,4 @@
-package design_pattern.structual_pattern.adapter.bridge;
+package design_pattern.structual_pattern.bridge;
 
 public class 아리 extends DefaultChampion{
     public 아리(Skin skin) {

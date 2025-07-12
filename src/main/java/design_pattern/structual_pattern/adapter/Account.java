@@ -1,4 +1,4 @@
-package design_pattern.structual_pattern.adapter.adapterClass;
+package design_pattern.structual_pattern.adapter;
 
 import lombok.Getter;
 import lombok.Setter;

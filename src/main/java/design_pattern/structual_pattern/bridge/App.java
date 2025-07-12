@@ -1,4 +1,4 @@
-package design_pattern.structual_pattern.adapter.bridge;
+package design_pattern.structual_pattern.bridge;
 
 public class App {
     public static void main(String[] args) {
