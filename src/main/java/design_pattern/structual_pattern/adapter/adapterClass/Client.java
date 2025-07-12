@@ -1,9 +1,8 @@
-package design_pattern.structual_pattern.adapter;
+package design_pattern.structual_pattern.adapter.adapterClass;
 
-import design_pattern.structual_pattern.adapter.adapterClass.AccountUserDetails;
-import design_pattern.structual_pattern.adapter.adapterClass.AccountUserDetailsService;
-import design_pattern.structual_pattern.adapter.security.LoginHandler;
-import design_pattern.structual_pattern.adapter.security.UserDetailsService;
+
+import design_pattern.structual_pattern.adapter.adapterClass.security.LoginHandler;
+import design_pattern.structual_pattern.adapter.adapterClass.security.UserDetailsService;
 
 public class Client {
     public static void main(String[] args) {

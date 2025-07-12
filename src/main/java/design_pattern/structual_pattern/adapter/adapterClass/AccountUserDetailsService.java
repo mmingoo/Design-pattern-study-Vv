@@ -1,9 +1,7 @@
 package design_pattern.structual_pattern.adapter.adapterClass;
 
-import design_pattern.structual_pattern.adapter.Account;
-import design_pattern.structual_pattern.adapter.AccountService;
-import design_pattern.structual_pattern.adapter.security.UserDetails;
-import design_pattern.structual_pattern.adapter.security.UserDetailsService;
+import design_pattern.structual_pattern.adapter.adapterClass.security.UserDetails;
+import design_pattern.structual_pattern.adapter.adapterClass.security.UserDetailsService;
 import org.apache.catalina.User;
 
 public class AccountUserDetailsService implements UserDetailsService {

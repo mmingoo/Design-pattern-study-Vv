@@ -1,4 +1,4 @@
-package design_pattern.structual_pattern.adapter.security;
+package design_pattern.structual_pattern.adapter.adapterClass.security;
 
 public interface UserDetailsService {
 
