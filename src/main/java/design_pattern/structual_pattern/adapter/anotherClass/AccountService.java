@@ -1,4 +1,4 @@
-package design_pattern.structual_pattern.adapter;
+package design_pattern.structual_pattern.adapter.anotherClass;
 
 public class AccountService {
 

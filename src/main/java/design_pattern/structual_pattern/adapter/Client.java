@@ -1,6 +1,8 @@
 package design_pattern.structual_pattern.adapter;
 
 
+import design_pattern.structual_pattern.adapter.adapterClass.AccountUserDetailsService;
+import design_pattern.structual_pattern.adapter.anotherClass.AccountService;
 import design_pattern.structual_pattern.adapter.security.LoginHandler;
 import design_pattern.structual_pattern.adapter.security.UserDetailsService;
 

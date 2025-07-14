@@ -1,6 +1,7 @@
-package design_pattern.structual_pattern.adapter;
+package design_pattern.structual_pattern.adapter.adapterClass;
 
 
+import design_pattern.structual_pattern.adapter.anotherClass.Account;
 import design_pattern.structual_pattern.adapter.security.UserDetails;
 
 public class AccountUserDetails implements UserDetails {
