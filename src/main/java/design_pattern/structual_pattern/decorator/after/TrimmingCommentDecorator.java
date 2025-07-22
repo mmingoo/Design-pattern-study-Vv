@@ -11,6 +11,7 @@ public class TrimmingCommentDecorator extends CommentDecorator {
     }
 
     private String trim(String comment) {
+        System.out.println("trim 실행");
         return comment.replace("...","");
 
     }

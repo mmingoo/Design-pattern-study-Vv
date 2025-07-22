@@ -12,9 +12,13 @@ public class SpamFilteringCommentDecorator extends CommentDecorator{
         if(!isNotSpam(comment)){
             super.addComment(comment);
         }
+
+
     }
 
     private boolean isNotSpam(String comment) {
+        System.out.println("spam 실행");
+
         return !comment.contains("http");
     }
 }

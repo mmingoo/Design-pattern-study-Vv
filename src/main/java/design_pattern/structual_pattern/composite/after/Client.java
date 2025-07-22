@@ -6,11 +6,12 @@ public class Client {
         Item doranBlade = new Item("도란검", 450);
         Item healPotion = new Item("체력 물약", 50);
 
+        Client client = new Client();
+
         Bag bag = new Bag();
         bag.add(doranBlade);
         bag.add(healPotion);
 
-        Client client = new Client();
         client.printPrice(doranBlade);
         client.printPrice(bag);
     }

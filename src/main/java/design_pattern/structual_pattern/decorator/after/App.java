@@ -22,8 +22,8 @@ public class App {
 
         /*
         * commentService 변수 → TrimmingCommentDecorator 객체
-                      ↳ commentService 필드 → SpamFilteringCommentDecorator 객체
-                                               ↳ commentService 필드 → DefaultCommentService 객체
+                                    ↳ commentService 필드 → SpamFilteringCommentDecorator 객체
+                                                                       ↳ commentService 필드 → DefaultCommentService 객체
 
         *TrimmingCommentDecorator.addComment() 호출
         -> CommentDecorator.addComment() 호출
@@ -42,8 +42,8 @@ public class App {
         * 여러 기능들이 순차적으로 실행되는 것
         * */
         Client client = new Client(commentService);
-        client.writeComment("오징어게임");
-        client.writeComment("보는게 하는거 보다 재밌을 수가 없지...");
-        client.writeComment("http://whiteship.me");
+//        client.writeComment("오징어게임");
+        client.writeComment("http:보는게 하는거 보다 재밌을 수가 없지...");
+//        client.writeComment("http://whiteship.me");
     }
 }
