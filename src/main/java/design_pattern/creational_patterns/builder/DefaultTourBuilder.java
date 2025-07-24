@@ -52,7 +52,6 @@ public class DefaultTourBuilder implements TourPlanBuilder{
         return this;
     }
     @Override
-
     public TourPlan getPlan() {
         return new TourPlan(title, nights, days, startDate, whereToStay, plans);
     }
