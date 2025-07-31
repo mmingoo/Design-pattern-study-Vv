@@ -8,9 +8,13 @@ import java.util.Properties;
 
 public class Mail {
     public void sendMail(String to, String from,String host){
+        // 메일 보내기 위한 설정정보
         Properties properties = PropertiesClass.getProperties(host);
+        // 메일 보내기 위한 세션정보
         Session session = SessionClass.getSession(properties);
 
+
+        // 메일 보내기 로직
         try {
             MimeMessage message = new MimeMessage(session);
             message.setFrom(new InternetAddress(from));
