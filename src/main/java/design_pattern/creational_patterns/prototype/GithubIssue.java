@@ -21,14 +21,14 @@ public class GithubIssue implements Cloneable{
     @Override
     public GithubIssue clone() throws CloneNotSupportedException {
         // 얕은 복사
-//        return (GithubIssue)super.clone();
+        return (GithubIssue)super.clone();
 
         // 깊은 복사
-        GithubIssue githubIssue_clone = new GithubIssue(this.repository);
-        githubIssue_clone.setId(this.id);
-        githubIssue_clone.setTitle(this.title);
+//        GithubIssue githubIssue_clone = new GithubIssue(this.repository);
+//        githubIssue_clone.setId(this.id);
+//        githubIssue_clone.setTitle(this.title);
 
-        return githubIssue_clone;
+//        return githubIssue_clone;
 
     }
 
