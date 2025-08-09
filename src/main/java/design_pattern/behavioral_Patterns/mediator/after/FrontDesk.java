@@ -23,3 +23,4 @@ public class FrontDesk {
         System.out.println(dateTime + "분에 식사가 예약됐습니다");
     }
 }
+
