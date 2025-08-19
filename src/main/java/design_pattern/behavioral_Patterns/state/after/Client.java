@@ -1,8 +1,10 @@
 package design_pattern.behavioral_Patterns.state.after;
 
+import java.util.ArrayList;
+
 public class Client {
     public static void main(String[] args) {
-        OnlineCourse onlineCourse = new OnlineCourse();
+        OnlineCourse onlineCourse = new OnlineCourse(new ArrayList<>(), new ArrayList<>());
         Student student = new Student("whiteship");
         Student keesun = new Student("keesun");
         keesun.addPrivate(onlineCourse);
