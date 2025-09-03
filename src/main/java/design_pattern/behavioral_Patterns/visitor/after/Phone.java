@@ -12,7 +12,6 @@ public class Phone implements Device {
         System.out.println("Print Rectangle to Phone");
 
     }
-
     @Override
     public void print(Triangle triangle) {
         System.out.println("Print Triangle to Phone");
